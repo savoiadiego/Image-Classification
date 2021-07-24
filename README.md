@@ -1,5 +1,5 @@
 # Image Classification
-This was the first homework of the Artificial Neural Network and Deep Learning course 2020/2021. All the details can be found on the [Kaggle inClass Competition page](https://www.kaggle.com/c/artificial-neural-networks-and-deep-learning-2020/).
+This was the first homework of the Artificial Neural Networks and Deep Learning course 2020/2021. All the details can be found on the [Kaggle inClass Competition page](https://www.kaggle.com/c/artificial-neural-networks-and-deep-learning-2020/).
 
 Developed by Diego Savoia and Francesco Emanuele Stradi.
 
@@ -11,27 +11,6 @@ The goal was to classify images depicting groups of people based on the number o
 * Someone in the image is not wearing a mask
 
 Thus, the classification is performed on 3 different classes. Being a classification problem, given an image, the goal is to predict the correct class label. The output is a csv file containing the predictions associated to each test image.
-
-### Dataset Details
-* Image size: variable
-* Color space: RGB
-* File Format: JPG
-* Number of classes: 3
-* Classes:
-  * 0: "NO PERSON in the image is wearing a mask"
-  * 1: "ALL THE PEOPLE in the image are wearing a mask"
-  * 2: "SOMEONE in the image is not wearing a mask"
-
-### Dataset Structure
-* Two folders:
-  * training: 5614 images
-  * test: 450 images
-* Training images per class:
-  * 0 : 1900 
-  * 1 : 1897
-  * 2 : 1817
-* Ground Truth:
-  * Labels for images are provided in the *train_gt.json" file.
   
 ### Implementation
 The notebook is meant to be used in Google Colaboratory, loading the dataset from Drive as explained inside the notebook.
