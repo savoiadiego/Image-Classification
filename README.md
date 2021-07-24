@@ -1,5 +1,5 @@
 # Image Classification
-This was the first homework of the Artificial Neural Network and Deep Learning course 2020/2021.
+This was the first homework of the Artificial Neural Network and Deep Learning course 2020/2021. All the details can be found on the [Kaggle inClass Competition page](https://www.kaggle.com/c/artificial-neural-networks-and-deep-learning-2020/).
 
 Developed by Diego Savoia and Francesco Emanuele Stradi.
 
